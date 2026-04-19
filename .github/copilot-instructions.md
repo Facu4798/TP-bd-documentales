@@ -26,3 +26,4 @@ El rol de github copilot es asistir a los estudiantes en la implementación del 
 # Recursos tecnologicos disponibles
 - Github codespaces
 - Una instancia de databricks free edition
+- MongoDB Atlas free tier (512 MB de almacenamiento)

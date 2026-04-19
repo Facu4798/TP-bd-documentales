@@ -1,3 +1,6 @@
+import sys
+sys.dont_write_bytecode = True
+
 import os
 os.system("clear")
 
@@ -9,9 +12,12 @@ from functions.helper.libraries import install_libraries, check_requirements
 
 install_libraries(check_requirements("src/python/requirements.txt"))
 
-#########################
-#### install mongodb ####
-#########################
+############################
+#### connect to mongodb ####
+############################
 
-from functions.mongodb.mongodb import install_mongodb
-install_mongodb()
+from functions.mongodb.mongodb import mdb_connect
+
+conn = mdb_connect()
+
+print(conn.list_database_names())
