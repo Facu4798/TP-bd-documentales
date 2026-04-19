@@ -1,3 +1,7 @@
+# do not generate __pycache__ folders
+import sys
+sys.dont_write_bytecode = True
+
 def install_libraries(libs : list):
     import subprocess
     actual_libs = subprocess.run(["pip","list"], capture_output=True, text=True).stdout

@@ -1,3 +1,8 @@
+# do not generate __pycache__ folders
+import sys
+sys.dont_write_bytecode = True
+
+
 def install_mongodb():
     import subprocess
     import os
