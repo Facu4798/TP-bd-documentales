@@ -27,3 +27,5 @@ El rol de github copilot es asistir a los estudiantes en la implementación del 
 - Github codespaces
 - Una instancia de databricks free edition
 - MongoDB Atlas free tier (512 MB de almacenamiento)
+- cluster de kafka hosteado en aivencloud
+- instancia de valkey (fork de redis) en aivencloud con 1 GB de almacenamiento en memoria

@@ -20,4 +20,3 @@ from functions.mongodb.mongodb import mdb_connect
 
 conn = mdb_connect()
 
-print(conn.list_database_names())
