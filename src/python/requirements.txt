@@ -1,6 +1,0 @@
-pymongo
-pandas
-numpy
-databricks-sdk
-Flask
-python-dotenv
